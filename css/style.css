@@ -987,8 +987,8 @@ span::after {
   .catalog__img1,
   .catalog__img2,
   .catalog__img3 {
-    width: 200px;
-    height: 171px;
+    width: 250px;
+    height: 214px;
   }
   .catalog__img1 img,
   .catalog__img2 img,
@@ -1268,8 +1268,8 @@ span::after {
   }
   /*catalog*/
   .catalog__img1, .catalog__img2, .catalog__img3 {
-    width: 150px;
-    height: 128px;
+    width: 170px;
+    height: 146px;
   }
   .catalog {
     padding-top: 40px;
