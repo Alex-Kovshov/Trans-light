@@ -1,0 +1,160 @@
+.projects {
+    
+    padding-top: 156px;
+    position: relative;
+   
+    
+    
+
+    &__title {
+        font-family: "Oswald", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        margin-bottom: 70px;
+        padding-left: 140px;
+    }
+
+    &__inner {
+      padding-bottom: 100px;
+     
+
+    }
+
+    
+    &__slider1 {
+        background: url("../img/projects/Rectangle 4.jpg") no-repeat center;
+        background-size: cover;
+       
+        width: 540px;
+        height: 400px;
+        position: relative;
+        margin-right: 20px;
+        
+        }
+
+        &__slider1 img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+            margin: 0 35px 35px 0;
+            width: 100%;
+            max-width: 250px;
+        }
+
+    &__slider2{
+        background: url("../img/projects/Rectangle 5.jpg") no-repeat center;
+        background-size: cover;
+        
+        width: 540px;
+        height: 400px;
+        position: relative;
+        margin-right: 20px;
+    }
+
+    &__slider2 img {
+        position: absolute;
+        margin: 0 35px 35px 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        width: 100%;
+        max-width: 250px;
+    }
+    
+}
+
+span {
+    display: block;
+    position: absolute;
+    top: 175px;
+    width: 100px;
+    height: 4px;
+    background-color: #005BC1;
+}
+span::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #005BC1;
+    margin-top: 13px;
+    margin-left: auto;
+}
+/*slick slider*/
+
+
+.slick-slider {
+   
+    
+}
+
+
+.slick-slider .slick-arrow {
+    
+    top: -82px;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    border: 2px #005BC1 solid;
+    
+}
+
+.slick-slider .slick-arrow:hover {
+    border: 4px#005BC1 solid;
+}
+
+.slick-slider .slick-prev {
+    left: revert;
+    margin-right: 76px;
+    
+    z-index: 1;
+    transition: all .1s linear;
+}
+
+.slick-slider .slick-prev::before {
+    content: "";
+    display: block;
+    margin-left: 7px;
+    border-left: 2px #005BC1 solid;
+    border-bottom: 2px #005BC1 solid;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    
+    margin-left: 20px;
+
+}
+
+
+.slick-slider .slick-next::before {
+    display: block;
+    content: "";
+    border-right: 2px #005BC1 solid;
+    border-bottom: 2px #005BC1 solid;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    margin-left: 7px;
+    
+
+}
+
+.slick-slider .slick-next {
+    
+    
+    right: 20px;
+    z-index: 1;
+    transition: all .1s linear;
+}
+
+.slick-slider .slick-prev:hover {
+    height: 56px;
+    
+}
+.slick-slider .slick-next:hover {
+    height: 56px;
+    
+}

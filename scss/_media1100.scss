@@ -1,0 +1,44 @@
+@media (max-width: 1100px) {
+
+     /*catalog*/
+     
+   .catalog {
+        padding-top: 50px;
+        
+        &__inner  {
+            padding-bottom: 50px;
+        }
+    
+    }
+
+    .tabs {
+        width: 100%; 
+    }
+    .catalog span {
+        top: 62px;
+    }
+    .tabs__item {
+        width: 100%;
+    }
+
+    .catalog__img1,
+    .catalog__img2,
+    .catalog__img3 {
+        width: 250px;
+        height: 214px;
+    }
+
+    .catalog__img1 img,
+    .catalog__img2 img,
+    .catalog__img3 img {
+        width: 120px;
+    }
+
+    .rent {
+        &__suptitle {
+            font-size: 14PX;
+        }
+    }
+}
+   
+  
