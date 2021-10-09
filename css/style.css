@@ -944,6 +944,7 @@ span::after {
   .slick-slider .slick-prev {
     margin-right: 67px;
     z-index: 1;
+    cursor: pointer;
   }
   .slick-slider .slick-prev:hover {
     height: 45px;
