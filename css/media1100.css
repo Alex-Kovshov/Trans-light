@@ -1,0 +1,29 @@
+@media (max-width: 1100px) {
+  /*catalog*/
+  .catalog {
+    padding-top: 50px;
+  }
+  .catalog__inner {
+    padding-bottom: 50px;
+  }
+  .tabs {
+    width: 100%;
+  }
+  .catalog span {
+    top: 62px;
+  }
+  .tabs__item {
+    width: 100%;
+  }
+  .catalog__img1,
+  .catalog__img2,
+  .catalog__img3 {
+    width: 200px;
+    height: 171px;
+  }
+  .catalog__img1 img,
+  .catalog__img2 img,
+  .catalog__img3 img {
+    width: 120px;
+  }
+}
